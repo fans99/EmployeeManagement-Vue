@@ -1,0 +1,35 @@
+    /*! @import */
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    @layer base{
+        body {
+            @apply font-standard;
+        }
+
+        svg {
+            @apply inline-block;
+        }
+    }
+
+    .input-box {
+        @apply border border-l-8 border-opacity-50 border-gray-400 focus:outline-none focus:border-blue-400 text-sm font-light transition-colors duration-300 rounded-sm h-9 p-5 my-2;
+    }
+
+    .bg-color-gradient {
+        background-image: linear-gradient(120deg, #3d4265, #386bf3, #c3d2fb, #3d4265, #386bf3, #c3d2fb);
+    }
+
+    .btn {
+        @apply py-1 px-2 rounded-sm ring-2 outline-none text-white hover:opacity-80 transition-opacity duration-150;
+    }
+
+    .btn-online {
+        @apply py-1.5 px-2 rounded border border-gray-200 outline-none bg-transparent text-gray-500
+        transition-colors duration-200;
+    }
+
+    .link {
+        @apply cursor-pointer inline-block mr-4 hover:underline
+    }

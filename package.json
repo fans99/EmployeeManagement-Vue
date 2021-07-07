@@ -1,0 +1,29 @@
+{
+  "name": "employee-management",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "element-plus": "^1.0.2-beta.52",
+    "js-cookie": "^2.2.1",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.10"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.4",
+    "@types/js-cookie": "^2.2.6",
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4",
+    "vite": "^2.3.8",
+    "vite-plugin-style-import": "^1.0.0"
+  }
+}
